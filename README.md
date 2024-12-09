@@ -1,39 +1,24 @@
-# vue-mint-2024-12-09
+# Vue - Git Tag Example
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+Exploration about how to use git tags to create specific named output.
 
 ## Project Setup
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Output
 
 ```sh
-npm run test:unit
+ tree dist
+dist
+├── 0.1.1
+│   ├── AboutView-CSIvawM9.css
+│   ├── AboutView-Cmv6H77C.js
+│   ├── index-5dJgFXHu.css
+│   └── index-Br6eQhf-.js
+├── favicon.ico
+└── index.html
 ```
